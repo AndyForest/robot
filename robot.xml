@@ -11,17 +11,17 @@
       </block>
     </value>
     <next>
-      <block type="movement_leftmotor" id="2" inline="true">
-        <value name="MOVLEFT">
-          <block type="math_number" id="3">
-            <field name="NUM">3</field>
+      <block type="robot_delay" id="4" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="5">
+            <field name="NUM">1500</field>
           </block>
         </value>
         <next>
-          <block type="robot_delay" id="4" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="5">
-                <field name="NUM">1500</field>
+          <block type="movement_leftmotor" id="2" inline="true">
+            <value name="MOVLEFT">
+              <block type="math_number" id="3">
+                <field name="NUM">3</field>
               </block>
             </value>
             <next>
