@@ -4,7 +4,7 @@
       <block type="movement_leftmotor" id="40" inline="true">
         <value name="MOVLEFT">
           <block type="math_number" id="53">
-            <field name="NUM">100</field>
+            <field name="NUM">10</field>
           </block>
         </value>
       </block>
