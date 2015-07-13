@@ -3,7 +3,7 @@
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="logic_compare" id="452" inline="true">
-        <field name="OP">EQ</field>
+        <field name="OP">GT</field>
         <value name="A">
           <block type="sensor_spectrometer" id="495">
             <field name="LIGHT">RED</field>
@@ -11,7 +11,7 @@
         </value>
         <value name="B">
           <block type="math_number" id="531">
-            <field name="NUM">100</field>
+            <field name="NUM">1</field>
           </block>
         </value>
       </block>
