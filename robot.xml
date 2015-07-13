@@ -19,5 +19,8 @@
     <statement name="DO">
       <block type="movement_forward" id="939"></block>
     </statement>
+    <next>
+      <block type="movement_stop" id="1027"></block>
+    </next>
   </block>
 </xml>
