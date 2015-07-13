@@ -17,10 +17,23 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="939"></block>
+      <block type="movement_reverse" id="1046"></block>
     </statement>
     <next>
-      <block type="movement_stop" id="1027"></block>
+      <block type="oled_color" id="1036">
+        <field name="OBJECT">GREEN</field>
+        <next>
+          <block type="movement_left" id="1065">
+            <next>
+              <block type="movement_forward" id="1076">
+                <next>
+                  <block type="movement_stop" id="1027"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
