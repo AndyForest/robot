@@ -8,7 +8,7 @@
           </block>
         </value>
         <next>
-          <block type="movement_stutter" id="221">
+          <block type="movement_forward" id="231">
             <next>
               <block type="movement_leftmotor" id="40" inline="true">
                 <value name="MOVLEFT">
