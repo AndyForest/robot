@@ -1,7 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="265" inline="false" x="-132" y="-14">
-    <mutation else="1"></mutation>
-    <value name="IF0">
+  <block type="controls_whileUntil" id="871" inline="false" x="-197" y="-61">
+    <field name="MODE">UNTIL</field>
+    <value name="NUMBER">
       <block type="logic_compare" id="452" inline="true">
         <field name="OP">EQ</field>
         <value name="A">
@@ -16,10 +16,7 @@
         </value>
       </block>
     </value>
-    <statement name="DO0">
-      <block type="movement_stop" id="301"></block>
-    </statement>
-    <statement name="ELSE">
+    <statement name="DO">
       <block type="movement_forward" id="845"></block>
     </statement>
   </block>
