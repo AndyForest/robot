@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="871" inline="false" x="-160" y="-14">
+  <block type="controls_whileUntil" id="871" inline="false" x="-249" y="-75">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="logic_compare" id="452" inline="true">
@@ -17,23 +17,10 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_reverse" id="1046"></block>
+      <block type="movement_stop" id="1184"></block>
     </statement>
     <next>
-      <block type="oled_color" id="1036">
-        <field name="OBJECT">GREEN</field>
-        <next>
-          <block type="movement_left" id="1065">
-            <next>
-              <block type="movement_forward" id="1076">
-                <next>
-                  <block type="movement_stop" id="1027"></block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
+      <block type="movement_forward" id="1194"></block>
     </next>
   </block>
 </xml>
